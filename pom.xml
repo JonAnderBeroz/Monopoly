@@ -9,13 +9,14 @@
 
   <name>Monopoly</name>
   <url>http://maven.apache.org</url>
+  
 <build>
     <plugins>
       <plugin>
   <groupId>org.jacoco</groupId>
   <artifactId>jacoco-maven-plugin</artifactId>
   <version>0.8.5</version>
-  <executions>
+  <executions> 
       <execution>
         <id>prepare-agent</id>
         <goals>
@@ -36,9 +37,9 @@
      <maven.compiler.source>1.8</maven.compiler.source>
       <maven.compiler.target>1.8</maven.compiler.target>
       <sonar.projectKey>MonopolySept8</sonar.projectKey>   
-      <sonar.organization>jononekin</sonar.organization>
+      <sonar.organization>jonanderberoz</sonar.organization>
       <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
-      <sonar.login>81a08424362a8029f028324821a72c8f207530ae</sonar.login> 
+      <sonar.login>2e64071d59028b31443b0ddb0bf90a4856efc468</sonar.login> 
     </properties>
 
   <dependencies>
